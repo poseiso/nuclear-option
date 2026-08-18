@@ -1,0 +1,6 @@
+[Unit]
+Description=Apply distraction blocklist to /etc/hosts
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/hosts-focus
